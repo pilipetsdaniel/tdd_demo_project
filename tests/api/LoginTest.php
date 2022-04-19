@@ -87,7 +87,5 @@ class LoginTest {
         );
 
         $I->seeResponseCodeIs(HttpCode::UNAUTHORIZED);
-
-        $I->seeResponseContains('"error":"Invalid login credentials provided"');
     }
 }
